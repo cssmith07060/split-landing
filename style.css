@@ -27,6 +27,21 @@ body {
 
 .split.left {
     left: 0;
-    background: url('');
+    background: url('ps.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.split.left::before {
+    content:'';
+    position: absolute;
+}
+
+.split.right {
+    right: 0;
+    background: url('xbox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
